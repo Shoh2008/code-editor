@@ -1,0 +1,36 @@
+@media only screen and (max-width: 500px) {
+    body::-webkit-scrollbar{
+        width: 10px;
+        background-color: #000;
+        height: 0;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: greenyellow;
+        border-radius: 50px;
+    }
+    body {
+        overflow: scroll !important;
+        display: block !important;
+    }
+    
+    .result {
+        width: 100% !important;
+        height: 50vh !important;
+        width: 100% !important;
+        border-bottom: 1px solid white;
+    }
+    .div {
+        height: 100vh;
+        width: 100% !important;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .px{
+        font-size: 20px;
+    }
+    .text {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}

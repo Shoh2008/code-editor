@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./respons.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="result">
+        <p class="breand">🖊</p>
+        <div class="element" id="el"></div>
+    </div>
+    <div class="div">
+        <div class="indicator">
+            <div class="line1">
+                <h1 class="title">height</h1>
+                <input type="range" value="0" max="500" id="r1" class="r1">
+                <h1 id="one" class="px">0</h1>
+            </div>
+            <div class="line2">
+                <h1 class="title">width</h1>
+                <input type="range" value="0" max="500" id="r2" class="r1">
+                <h1 id="two" class="px">0</h1>
+            </div>
+            <div class="line3">
+                <h1 class="title">b-radius</h1>
+                <input type="range" value="0" max="300" id="r3" class="r1">
+                <h1 id="tree" class="px">0</h1>
+            </div>
+            <div class="line4">
+                <h1 class="title">bg-color</h1>
+                <input type="color" id="r4" class="r1">
+                <h1 id="four" class="px4">#</h1>
+            </div>
+            <div class="line5">
+                <h1 class="title">t-l-rad</h1>
+                <input type="range" value="0" max="300" id="r5" class="r1">
+                <h1 id="five" class="px">0</h1>
+            </div>
+            <div class="line6">
+                <h1 class="title">t-r-rad</h1>
+                <input type="range" value="0" max="300" id="r6" class="r1">
+                <h1 id="six" class="px">0</h1>
+            </div>
+            <div class="line7">
+                <h1 class="title">b-l-rad</h1>
+                <input type="range" value="0" max="300" id="r7" class="r1">
+                <h1 id="seven" class="px">0</h1>
+            </div>
+            <div class="line8">
+                <h1 class="title">b-r-rad</h1>
+                <input type="range" value="0" max="300" id="r8" class="r1">
+                <h1 id="eight" class="px">0</h1>
+            </div>
+            <div class="line9">
+                <h1 class="title">border</h1>
+                <input type="range" value="0" max="150" id="r9" class="r1">
+                <h1 id="nine" class="px">0</h1>
+            </div>
+            <div class="line10">
+                <h1 class="title">b-style</h1>
+                <select type="text" max="250" id="r10" class="r1">
+                    <option>solid</option>
+                    <option>dotted</option>
+                    <option>dashed</option>
+                    <option>double</option>
+                    <option>groove</option>
+                    <option>hidden</option>
+                    <option>ridge</option>
+                </select>
+                <h1 id="ten" class="px">style</h1>
+            </div>
+            <div class="line11">
+                <h1 class="title">b-color</h1>
+                <input type="color" id="r11" class="r1">
+                <h1 id="eleven" class="px11">#</h1>
+            </div>
+        </div>
+        <div class="codes">
+            <div class="strok">
+                <h2 class="cssEl">
+                    .element {
+                    <h2 class="text" id="i1">height: <span id="inPxHeight">0</span>px;</h2>
+                    <h2 class="text" id="i2">width: <span id="inPxWidth">0</span>px;</h2>
+                    <h2 class="text" id="i3">border-radius: <span id="inPxBRadius">0</span>px;</h2>
+                    <h2 class="text" id="i4">background-color: <span id="inPxBgColor">#</span> ;</h2>
+                    <h2 class="text" id="i5">border-top-left-radius: <span id="inPxTLR">0</span>px;</h2>
+                    <h2 class="text" id="i6">border-top-right-radius: <span id="inPxTRR">0</span>px;</h2>
+                    <h2 class="text" id="i7">border-bottom-left-radius: <span id="inPxBLR">0</span>px;</h2>
+                    <h2 class="text" id="i8">border-bottom-right-radius: <span id="inPxBRR">0</span>px;</h2>
+                    <h2 class="text" id="i9">border:
+                        <span id="inPxBpx">0</span>px
+                        <span id="inPxStyle">style</span>
+                        <span id="inPxBColor">#</span>;
+                    </h2>
+                    <h2 class="cssEl">}</h2>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

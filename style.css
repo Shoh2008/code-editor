@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: #1f1f1f;
+    background-color: #999;
+}
+
+body {
+    background: #000000;
+    display: flex;
+    overflow: hidden;
+}
+
+.result {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+}
+
+.element {
+    margin: auto;
+}
+
+/* ! */
+
+.div {
+    height: 100vh;
+    width: 40%;
+}
+
+.indicator {
+    height: 50vh;
+    width: 100%;
+    background-color: #1f1f1f;
+    border: 0.1px solid black;
+    overflow: scroll;
+}
+
+.indicator::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7,
+.line8,
+.line9,
+.line10,
+.line11,
+.line12 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#ten {
+    width: 100px;
+}
+
+#r10 {
+    width: 170px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.title {
+    width: 150px;
+}
+
+.r1 {
+    width: 220px;
+}
+
+#r4,
+#r11 {
+    width: 150px;
+}
+
+.px4,
+.px11 {
+    width: 120px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.px {
+    width: 50px;
+    text-align: center;
+}
+
+input {
+    margin: .4rem;
+}
+
+/* ! */
+.codes {
+    height: 50vh;
+    width: 100%;
+    background-color: #1f1f1f;
+    border: 0.1px solid black;
+}
+
+.strok {
+    width: 100%;
+    margin: 10px 0;
+    padding: 4px 20px;
+}
+
+.text {
+    color: white;
+    margin-left: 40px;
+    display: none;
+}
+
+.cssEl {
+    color: yellow;
+}
+
+select {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+.inp {
+    width: 32px;
+    background-color: #2e2e2e;
+    color: white;
+    outline: none;
+}
+
+.inpP {
+    width: 40px;
+    background-color: #2e2e2e;
+    color: white;
+    outline: none;
+}
+
+.inpColorBoxShadow {
+    width: 30px;
+}
+
+.breand {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    margin: 0 5px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 200px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #eeff00;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
